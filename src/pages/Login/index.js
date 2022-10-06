@@ -44,6 +44,9 @@ const Login = ({navigation}) => {
       }}>
         <Text>Hint, username & password</Text>
       </TouchableOpacity>
+      <TouchableOpacity style = {{marginTop: 10}} onPress = {() => navigation.replace('TestFunc')}>
+        <Text>Go To Test Function</Text>
+      </TouchableOpacity>
     </View>
   )
 }
